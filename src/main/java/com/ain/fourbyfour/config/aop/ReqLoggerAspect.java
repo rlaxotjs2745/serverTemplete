@@ -1,4 +1,4 @@
-package com.ain.fourbyfour.config.aopConfig;
+package com.ain.fourbyfour.config.aop;
 
 
 import com.ain.fourbyfour.util.ConnectionUtil;

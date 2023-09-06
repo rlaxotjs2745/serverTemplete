@@ -1,4 +1,4 @@
-package com.ain.fourbyfour.test.controller;
+package com.ain.fourbyfour.domain.test.controller;
 
 
 import com.ain.fourbyfour.config.customAnnotation.ControllerReqLog;
