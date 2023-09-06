@@ -1,0 +1,28 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+
+spring:
+  profiles:
+    include:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    open-in-view: false
+    properties:
+      hibernate:
+        default_batch_fetch_size: 1000
+        globally_quoted_identifiers: true
+    show-sql: false
+
+decorator:
+  datasource:
+    p6spy:
+      enable-logging: true
